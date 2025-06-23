@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alvaro Guzman | Estudiante de Ingeniería Industrial</title>
+  <meta name="description" content="Página personal de Alvaro Guzman, estudiante de Ingeniería Industrial. Conoce más sobre sus intereses, habilidades e idiomas.">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f172a;
+      color: #e2e8f0;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .columna {
+      flex: 1 1 600px;
+      margin: 1rem;
+      background-color: #1e293b;
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    h1, h2 {
+      color: #60a5fa;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1rem;
+      margin: 1rem 0;
+      line-height: 1.6;
+    }
+
+    .iconos {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1rem;
+    }
+
+    .iconos a img {
+      width: 48px;
+      height: 48px;
+      transition: transform 0.3s ease;
+    }
+
+    .iconos a img:hover {
+      transform: scale(1.1);
+    }
+
+    .frase {
+      text-align: center;
+      font-style: italic;
+      color: #94a3b8;
+      margin-top: -1rem;
+      font-size: 1rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .card {
+      background-color: #334155;
+      border-radius: 10px;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100px;
+      margin-top: 0.5rem;
+      border-radius: 6px;
+    }
+
+    .amigos, .idiomas, .habilidades, .intereses {
+      text-align: center;
+      margin-top: 2.5rem;
+    }
+
+    .amigos a {
+      text-decoration: none;
+      color: #3b82f6;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #0f172a;
+      font-size: 0.9rem;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="columna">
+      <h1>Alvaro Santiago Guzman Gutierrez</h1>
+      <p class="frase">“No se trata solo de aprender, sino de aplicar lo aprendido para transformar el entorno.”</p>
+      <p>Estudiante de segundo semestre de Ingeniería Industrial con fuerte interés en logística, optimización de procesos y gestión operativa. Me esfuerzo por adquirir conocimientos técnicos y desarrollar habilidades prácticas que me preparen para aportar a equipos de trabajo eficientes e innovadores. Considero que cada experiencia, por pequeña que sea, es una oportunidad para crecer personal y profesionalmente.</p>
+
+      <div class="habilidades">
+        <h2>Habilidades</h2>
+        <div class="grid">
+          <div class="card"><p>Aprendizaje rápido</p></div>
+          <div class="card"><p>Adaptabilidad ante problemas</p></div>
+          <div class="card"><p>Autocad (básico)</p></div>
+          <div class="card"><p>Python (básico)</p></div>
+          <div class="card"><p>Arduino (básico)</p></div>
+          <div class="card"><p>Enfoque analítico en toma de decisiones</p></div>
+        </div>
+        <div class="iconos">
+          <a href="https://www.linkedin.com/in/alvaro-guzman-235196358?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" />
+          </a>
+          <a href="mailto:alvarosantiago1006@gmail.com">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" />
+          </a>
+        </div>
+      </div>
+
+      <div class="idiomas">
+        <h2>Idiomas</h2>
+        <p>Español (nativo) · Inglés (básico) · Alemán (aprendiendo)</p>
+      </div>
+
+      <div class="intereses">
+        <h2>Intereses</h2>
+        <div class="grid">
+          <div class="card">
+            <p>Rompecabezas 3D</p>
+            <img src="rompecabezas.png" alt="Rompecabezas 3D">
+          </div>
+          <div class="card">
+            <p>Videojuegos</p>
+            <img src="videojuegos.png" alt="Videojuegos">
+          </div>
+          <div class="card">
+            <p>Música</p>
+            <a href="https://music.youtube.com/watch?v=p7DnxRRuqzM&si=T9FXTgkC12JA-RII" target="_blank">
+              <img src="musica.png" alt="Música">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="amigos">
+        <h2>Amigos</h2>
+        <p>
+          <a href="https://crimsonkiller18.github.io/Piero-Polar-Salazar/" target="_blank">
+            Piero Polar Salazar
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    Página creada con fines académicos | 2025
+  </footer>
+
+</body>
+</html>
